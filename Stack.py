@@ -1,0 +1,12 @@
+stack = []
+stack.append('9')
+stack.append('6')
+stack.append('4')
+print('Initial stack')
+print(stack)
+print('\nElements popped from stack:')
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print('\nStack after elements are popped:')
+print(stack)
